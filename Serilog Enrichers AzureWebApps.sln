@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.AzureWebApps", "src\Serilog.Enrichers.AzureWebApps\Serilog.Enrichers.AzureWebApps.csproj", "{513171F2-32F9-460A-BA82-F8786951A1D6}"
 EndProject
@@ -11,7 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2E34392E-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.AzureWebApps.UnitTest", "test\Serilog.Enrichers.AzureWebApps.UnitTest\Serilog.Enrichers.AzureWebApps.UnitTest.csproj", "{114C3B7B-ED77-4D2A-B107-A2BA330B647B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Enrichers.AzureWebApps.NETStandard", "src\Serilog.Enrichers.AzureWebApps.NETStandard\Serilog.Enrichers.AzureWebApps.NETStandard.csproj", "{97CEB5C3-B318-4923-8301-969185914733}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuSpec", "NuSpec", "{65482F51-3218-4949-BA59-87CE639478DA}"
+	ProjectSection(SolutionItems) = preProject
+		Serilog Enrichers AzureWebApps.nuspec = Serilog Enrichers AzureWebApps.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +30,6 @@ Global
 		{114C3B7B-ED77-4D2A-B107-A2BA330B647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114C3B7B-ED77-4D2A-B107-A2BA330B647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114C3B7B-ED77-4D2A-B107-A2BA330B647B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97CEB5C3-B318-4923-8301-969185914733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97CEB5C3-B318-4923-8301-969185914733}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97CEB5C3-B318-4923-8301-969185914733}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97CEB5C3-B318-4923-8301-969185914733}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +37,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{513171F2-32F9-460A-BA82-F8786951A1D6} = {CF0A6F02-ED55-4533-8454-F63E725237C0}
 		{114C3B7B-ED77-4D2A-B107-A2BA330B647B} = {2E34392E-C03E-4B49-B45D-784D7AA2AEE2}
-		{97CEB5C3-B318-4923-8301-969185914733} = {CF0A6F02-ED55-4533-8454-F63E725237C0}
 	EndGlobalSection
 EndGlobal
